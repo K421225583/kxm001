@@ -1,0 +1,159 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html {
+  font-size: 87.5%;
+  background: #F2F2F2; }
+
+header {
+  width: 100%; }
+  header > div:first-of-type {
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0%; }
+    header > div:first-of-type img {
+      width: 100%;
+      height: 1.42rem; }
+  header > div:nth-of-type(2) {
+    width: 100%;
+    height: 12.64rem;
+    background: url("../images/项目首页，牛_01.png") no-repeat;
+    background-size: 100% 100%; }
+    header > div:nth-of-type(2) > div {
+      width: 100%;
+      position: relative;
+      top: 2rem; }
+      header > div:nth-of-type(2) > div > input {
+        width: 48.53%;
+        border-radius: 27px;
+        height: 1.92rem;
+        background: white;
+        border: none;
+        padding-left: 2.14rem;
+        margin-left: 23.73%; }
+      header > div:nth-of-type(2) > div > img {
+        width: 1.28rem;
+        height: 1.28rem;
+        position: absolute;
+        left: 25.3%;
+        top: 20%; }
+
+nav {
+  width: 100%;
+  background: white;
+  padding-top: 0.71rem; }
+  nav ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    nav ul li {
+      width: 20%;
+      height: 3.5rem;
+      text-align: center;
+      padding-bottom: 0.71rem; }
+      nav ul li img {
+        width: 2.57rem;
+        height: 2.57rem; }
+      nav ul li p {
+        font-size: 0.86rem;
+        font-family: "黑体";
+        color: #BABABA; }
+
+#modle {
+  width: 100%;
+  margin-top: 0.78rem;
+  background: white; }
+  #modle > div:first-of-type {
+    width: 100%;
+    text-align: center;
+    padding-top: 0.7142rem;
+    padding-bottom: 0.7142rem; }
+    #modle > div:first-of-type p {
+      font-size: 1.14rem;
+      word-spacing: 8px; }
+  #modle > div:nth-of-type(2) {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 1px solid  #F3F3F3; }
+    #modle > div:nth-of-type(2) > div:first-of-type {
+      width: 25.34%;
+      padding-right: 1.42rem;
+      padding-left: 0.85rem; }
+      #modle > div:nth-of-type(2) > div:first-of-type > img {
+        width: 6.85rem;
+        height: 4.43rem; }
+    #modle > div:nth-of-type(2) > div:last-of-type {
+      width: 74.16%; }
+      #modle > div:nth-of-type(2) > div:last-of-type > p:first-of-type {
+        font-size: 1.1rem;
+        font-family: "黑体"; }
+      #modle > div:nth-of-type(2) > div:last-of-type > p:last-of-type {
+        white-space: normal;
+        font-size: 0.94rem;
+        color: darkgray;
+        margin-top: 5px;
+        margin-left: -2px; }
+  #modle > div:nth-of-type(3) {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 1px solid  #F3F3F3;
+    margin-top: 8px; }
+    #modle > div:nth-of-type(3) > div:first-of-type {
+      width: 25.34%;
+      padding-right: 1.42rem;
+      padding-left: 0.85rem; }
+      #modle > div:nth-of-type(3) > div:first-of-type > img {
+        width: 6.85rem;
+        height: 4.43rem; }
+    #modle > div:nth-of-type(3) > div:last-of-type {
+      width: 74.16%; }
+      #modle > div:nth-of-type(3) > div:last-of-type > p:first-of-type {
+        font-size: 1.1rem;
+        font-family: "黑体"; }
+      #modle > div:nth-of-type(3) > div:last-of-type > p:last-of-type {
+        white-space: normal;
+        font-size: 0.94rem;
+        color: darkgray;
+        margin-top: 5px;
+        margin-left: -2px; }
+
+article {
+  width: 100%;
+  background: white;
+  margin-top: 0.78rem; }
+  article > div:first-of-type {
+    width: 100%;
+    text-align: center;
+    padding-top: 0.85rem;
+    padding-bottom: 0.85rem; }
+    article > div:first-of-type > p {
+      font-size: 1.14rem;
+      word-spacing: 8px; }
+  article > ul {
+    width: 94.6%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto; }
+    article > ul li {
+      width: 33.33%;
+      text-align: center; }
+
+footer {
+  width: 100%;
+  background: white; }
+  footer ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; }
+    footer ul li {
+      width: 20%;
+      text-align: center; }
+
+/*# sourceMappingURL=css1.css.map */

@@ -1,0 +1,190 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html{
+    font-size: 87.5%;
+    background: #F2F2F2;
+}
+
+header{
+    width: 100%;
+    >div:first-of-type{
+        width:100%;
+        position: fixed;
+        z-index: 10;
+        top: 0%;
+        img{
+            width: 100%;
+            height: 1.42rem;
+        }
+    }
+    >div:nth-of-type(2){
+        width: 100%;
+        height: 12.64rem;
+        background: url("../images/项目首页，牛_01.png") no-repeat;
+        background-size:100% 100%;
+        >div{
+            width: 100%;
+            position: relative;
+            top: 2rem;
+            >input{
+                width:48.53% ;
+                border-radius: 27px;
+                height: 1.92rem;
+                background: white;
+                border: none;
+                padding-left: 2.14rem;
+                margin-left: 23.73%;
+            }
+            >img{
+                width: 1.28rem;
+                height: 1.28rem;
+                position: absolute;
+                left: 25.3%;
+                top: 20%;
+            }
+        }
+    }
+    
+}
+nav{
+    width: 100%;
+    background: white;
+    padding-top: 0.71rem;
+    ul{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        li{
+            width: 20%;
+            height: 3.5rem;
+            text-align: center;
+            padding-bottom:0.71rem ;
+            img{
+                width:2.57rem ;
+                height: 2.57rem;
+            }
+            p{
+                font-size: 0.86rem;
+                font-family: "黑体";
+                color: #BABABA;
+            }
+        }
+    }
+}
+#modle{
+    width: 100%;
+    margin-top: 0.78rem;
+    background: white;
+    >div:first-of-type{
+        width: 100%;
+        text-align: center;
+        padding-top: 0.7142rem;
+        padding-bottom: 0.7142rem;
+        p{
+            font-size: 1.14rem;
+            word-spacing:8px;
+        }
+    }
+    >div:nth-of-type(2){
+        width:100%;
+        margin: 0 auto;
+        display: flex;
+        border-bottom: 1px solid  #F3F3F3;
+        >div:first-of-type{
+            width:25.34%;
+            padding-right: 1.42rem;
+            padding-left: 0.85rem;
+            >img{
+                width: 6.85rem;
+                height: 4.43rem;
+            }
+        }
+        >div:last-of-type{
+            width:74.16%;
+            >p:first-of-type{
+                font-size: 1.1rem;
+                font-family: "黑体";
+            }
+            >p:last-of-type{
+                white-space: normal;
+                font-size: 0.94rem;
+                color: darkgray;
+                margin-top: 5px;
+                margin-left: -2px;
+            }
+        }
+    }
+    >div:nth-of-type(3){
+        width:100%;
+        margin: 0 auto;
+        display: flex;
+        border-bottom: 1px solid  #F3F3F3;
+        margin-top:8px;
+        >div:first-of-type{
+            width:25.34%;
+            padding-right: 1.42rem;
+            padding-left: 0.85rem;
+            >img{
+                width: 6.85rem;
+                height: 4.43rem;
+            }
+        }
+        >div:last-of-type{
+            width:74.16%;
+            >p:first-of-type{
+                font-size: 1.1rem;
+                font-family: "黑体";
+            }
+            >p:last-of-type{
+                white-space: normal;
+                font-size: 0.94rem;
+                color: darkgray;
+                margin-top: 5px;
+                margin-left: -2px;
+            }
+        }
+    }
+}
+article{
+    width: 100%;
+    background: white;
+    margin-top: 0.78rem;
+    >div:first-of-type{
+        width:100% ;
+        text-align: center;
+        padding-top: 0.85rem;
+        padding-bottom: 0.85rem;
+        >p{
+             font-size: 1.14rem;
+            word-spacing:8px;
+        }
+    }
+    >ul{
+        width: 94.6%;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 auto;
+        li{
+            width: 33.33%;
+            text-align: center;
+        }
+    }
+}
+footer{
+    width: 100%;
+    background: white;
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        li{
+            width: 20%;
+            text-align: center;
+        }
+    }
+}
